@@ -15,9 +15,7 @@ public class Town implements TownInf {
 			System.out.println("0：宿屋");
 			System.out.println("1：鍛冶屋");
 			System.out.println("9：冒険を続ける");
-			Scanner sc = new Scanner(System.in);
-			input = sc.nextInt();
-			sc.close();
+			input = new Scanner(System.in).nextInt();
 			if (input == 0 || input == 1 || input == 9) {
 				return input;
 			} else {

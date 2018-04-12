@@ -33,7 +33,6 @@ public class OpenningFieldImpl implements OpenningFieldInf {
 				System.out.println("入力値が不正です。");
 			}
 		}
-		sc.close();
 		return input;
 	}
 
@@ -53,7 +52,6 @@ public class OpenningFieldImpl implements OpenningFieldInf {
 				break;
 			}
 		}
-		sc.close();
 		return input;
 	}
 

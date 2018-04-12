@@ -53,9 +53,7 @@ public class BattleFieldImpl implements BattleFieldInf {
 			System.out.println("1：攻撃");
 			// System.out.println("2：防御");
 			System.out.println("3：逃走");
-			Scanner sc = new Scanner(System.in);
-			input = sc.nextInt();
-			sc.close();
+			input = new Scanner(System.in).nextInt();
 			if (input == 1 || input == 3) {
 				break;
 			} else {

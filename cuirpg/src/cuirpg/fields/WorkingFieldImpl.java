@@ -25,7 +25,6 @@ public class WorkingFieldImpl implements WalkingFieldInf {
 			System.out.println("9：ゲーム終了");
 			int input = sc.nextInt();
 			if (input == 0 || input == 1 || input == 9) {
-				sc.close();
 				return input;
 			} else {
 				System.out.println("入力値が違います。");
