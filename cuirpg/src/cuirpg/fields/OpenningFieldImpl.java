@@ -20,7 +20,6 @@ public class OpenningFieldImpl implements OpenningFieldInf {
 				+ " ■■   ■  ■■    ■■  ■   ■    ■  ■        ■■   ■■\n"
 				+ "  ■■■■     ■■■■    ■   ■    ■■ ■         ■■■■■ \n";
 		System.out.println(title);
-		System.out.println();
 		int input = 0;
 		Scanner sc = new Scanner(System.in);
 		while (true) {

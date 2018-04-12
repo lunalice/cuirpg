@@ -44,6 +44,5 @@ public class Town implements TownInf {
 		System.out.println(mName + ":攻撃力 " + attackPower + "が完成した！");
 		Weapon ken = new Weapon(mName, attackPower);
 		hero.setKen(ken);
-		sc.close();
 	}
 }
